@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+	box-sizing: border-box;
+	font-family: "Outfit", sans-serif;
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: hsl(217, 54%, 11%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 0 auto;
+	flex-direction: column;
+	padding: 50px 0;
+}
+
+main {
+	background-color: hsl(216, 50%, 16%);
+	padding: 1.5rem;
+	border-radius: 0.7rem;
+	box-shadow: -10px 10px 5px hsl(221, 62%, 13%);
+}
+
+header {
+	width: 17rem;
+	height: 17rem;
+}
+
+.equilibrium {
+	object-fit: cover;
+	border-radius: 0.5rem;
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	font-size: 1.3rem;
+	margin: 1rem 0;
+}
+
+.text {
+	color: hsl(215, 51%, 70%);
+	padding-bottom: 1rem;
+	font-weight: 100;
+}
+
+.value-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.value-section div {
+	display: flex;
+}
+
+.ethereum-value {
+	color: hsl(178, 100%, 50%);
+	font-weight: 600;
+	margin-left: 0.5rem;
+}
+
+.days {
+	color: hsl(215, 51%, 70%);
+	margin-left: 0.5rem;
+}
+
+.divider {
+	width: 100%;
+	height: 1px;
+	margin: 1.5rem 0;
+	background-color: hsl(215, 32%, 27%);
+}
+
+.creator {
+	display: flex;
+	align-items: center;
+}
+
+.avatar {
+	height: 2rem;
+	width: 2rem;
+	border: 2px solid white;
+	border-radius: 100%;
+	object-fit: cover;
+}
+
+.author {
+	margin-left: 1rem;
+	font-size: 0.9rem;
+	font-weight: 300;
+	color: hsl(215, 51%, 70%);
+}
+
+.name {
+	color: white;
+	font-weight: 600;
+}
+
+.attribution {
+	font-size: 11px;
+	margin-top: 2rem;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
