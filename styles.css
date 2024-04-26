@@ -57,6 +57,7 @@ h1 {
 
 .value-section div {
 	display: flex;
+	margin-top: 1rem;
 }
 
 .ethereum-value {
